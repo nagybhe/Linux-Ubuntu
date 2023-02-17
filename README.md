@@ -1,18 +1,27 @@
-## Olá, Somos a GROTH GAME - GG!</strong>
+## Olá, Este é o Script de Terminal Ubuntu!
+> Comandos básicos
 
-> HACKATHON GAMEFICA
+COMANDOS | O QUE FAZ
+:--------- | :------:
+ls | Mostra os arquivos no diretório
+cd | cd (change directory) nome da pasta (escreva o início e aperta tab, isso completará o nome visto que só terá um diretório com este início): entra na pasta 
+cd ~ | Volta na home, a mesma que aparecia no comando “ls” 
+clear | Limpa a tela toda ou “ctrl+L” 
+⇅ | Mostra as últimas coisas escritas 
+man apt | man (manual): mostra o manual de qualquer comando. Nesse caso manual do apt
+apt -- help | mostra os comandos mais utilizados 
+apt search | pesquisa nas descrições do pacote
+apt-cache depends <nome do programa> | mostra as dependências do aplicativo
+sudo apt install <nome do aplicativo> | Usado para baixar e instalar programas
+sudo apt upgrade | Instala e atualiza pacotes de upgrade, instalando novos pacotes e atualizando os que já existem
+sudo apt full-upgrade | atualiza o sistema removendo, instalando e atualizando pacotes
+sudo apt update | sudo (super user do) apt (advanced package tool) update: faz update como usuário root.  Atualiza a lista de repositórios do sistema. O sistema vai verificar todos repositórios e informar se podem ser atualizados
+!! | copia e cola o último comando escrito
+u, −−show-upgraded | mostra a lista de pacotes sendo atualizada
+
+> Caso queira saber mais acesso o [Guia com mais de 500 comandos do Linux (Explicados)](https://www.linuxpro.com.br/dl/guia_500_comandos_Linux.pdf)
 ----
-## CONFIGURAÇÃO DO PROJETO
-- Editar o arquivo **.flaskenv** com as variáveis de sistema
-> Exemplo: configuração do banco de dados e credenciais do Linkedin
->
->> Acessar o DOCKER e rodar três(3) comandos, são eles:
-- **flask db stamp heads**
-- **flask db migrate**
-- **flask db upgrade**
 
-
-----
 ##  👨‍💻 DevOps
   
 <img src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" /> ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git) ![GitHub SEU NOME]( https://img.shields.io/github/followers/nagybhe?label=follow&style=social)
