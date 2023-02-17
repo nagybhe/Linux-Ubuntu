@@ -4,20 +4,20 @@
 COMANDOS | O QUE FAZ
 :--------- | :------:
 ls | Mostra os arquivos no diretório
-cd | cd (change directory) nome da pasta (escreva o início e aperta tab, isso completará o nome visto que só terá um diretório com este início): entra na pasta 
-cd ~ | Volta na home, a mesma que aparecia no comando “ls” 
-clear | Limpa a tela toda ou “ctrl+L” 
+cd | cd **(change directory)** nome da pasta (escreva o início e aperta tab, isso completará o nome visto que só terá um diretório com este início): entra na pasta 
+cd ~ | Volta na home, a mesma que aparecia no comando **“ls”**
+clear | Limpa a tela toda ou **“ctrl+L”**
 ⇅ | Mostra as últimas coisas escritas 
-man apt | man (manual): mostra o manual de qualquer comando. Nesse caso manual do apt
-apt -- help | mostra os comandos mais utilizados 
-apt search | pesquisa nas descrições do pacote
-apt-cache depends <nome do programa> | mostra as dependências do aplicativo
+man apt | Mostra o manual de qualquer comando, nesse caso manual do **apt**
+apt -- help | Mostra os comandos mais utilizados 
+apt search | Pesquisa nas descrições do pacote
+apt-cache depends <nome do programa> | Mostra as dependências do aplicativo
 sudo apt install <nome do aplicativo> | Usado para baixar e instalar programas
 sudo apt upgrade | Instala e atualiza pacotes de upgrade, instalando novos pacotes e atualizando os que já existem
-sudo apt full-upgrade | atualiza o sistema removendo, instalando e atualizando pacotes
-sudo apt update | sudo (super user do) apt (advanced package tool) update: faz update como usuário root.  Atualiza a lista de repositórios do sistema. O sistema vai verificar todos repositórios e informar se podem ser atualizados
-!! | copia e cola o último comando escrito
-u, −−show-upgraded | mostra a lista de pacotes sendo atualizada
+sudo apt full-upgrade | Atualiza o sistema removendo, instalando e atualizando pacotes
+sudo apt update | **Sudo (super user do) apt (advanced package tool) update**: Faz update como usuário root, Atualiza a lista de repositórios do sistema. O sistema vai verificar todos repositórios e informar se podem ser atualizados
+!! | Copia e cola o último comando escrito
+u, −−show-upgraded | Mostra a lista de pacotes sendo atualizada
 
 > Caso queira saber mais acesso o [Guia com mais de 500 comandos do Linux (Explicados)](https://www.linuxpro.com.br/dl/guia_500_comandos_Linux.pdf)
 ----
