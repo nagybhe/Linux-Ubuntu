@@ -18,6 +18,7 @@ sudo apt full-upgrade | Atualiza o sistema removendo, instalando e atualizando p
 sudo apt update | **Sudo (super user do) apt (advanced package tool) update**: Faz update como usuário root, Atualiza a lista de repositórios do sistema. O sistema vai verificar todos repositórios e informar se podem ser atualizados
 !! | Copia e cola o último comando escrito
 u, −−show-upgraded | Mostra a lista de pacotes sendo atualizada
+free | Mostra a quantidade de memória sendo atualizada
 
 > Caso queira saber mais acesso o [Guia com mais de 500 comandos do Linux (Explicados)](https://www.linuxpro.com.br/dl/guia_500_comandos_Linux.pdf)
 ----
