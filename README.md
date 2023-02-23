@@ -19,6 +19,7 @@ sudo apt update | **Sudo (super user do) apt (advanced package tool) update**: F
 !! | Copia e cola o último comando escrito
 u, −−show-upgraded | Mostra a lista de pacotes sendo atualizada
 free | Mostra a quantidade de memória sendo atualizada
+bashtop | Mostra graficos informando a quantidade de processamento de seu compuador
 
 > Caso queira saber mais acesso o [Guia com mais de 500 comandos do Linux (Explicados)](https://www.linuxpro.com.br/dl/guia_500_comandos_Linux.pdf)
 ----
